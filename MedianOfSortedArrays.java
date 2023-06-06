@@ -18,7 +18,7 @@ class Solution {
             } else if (n2p == nums2.length) {
                 next = nums1[n1p];
                 n1p++;
-            }else if (nums1[n1p] < nums2[n2p]) {
+            } else if (nums1[n1p] < nums2[n2p]) {
                 next = nums1[n1p];
                 n1p++;
             } else {
